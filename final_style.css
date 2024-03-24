@@ -1,0 +1,99 @@
+.header-main-division{
+    display: flex;
+    justify-content: space-around;
+
+}
+.header-left-division{
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 10px;
+}
+
+.header-centre-division{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.header-right-division{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.wall-poster-section{
+    display: flex;
+    justify-content: space-around;
+}
+.movie-name-and-details{
+    text-align: center;
+    padding: 200px 0;
+}
+
+.movies-and-fan-wall{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.movies-wb{
+    background-image: url("movies-bg.png");
+    width: 300px;
+    height: 300px;
+    background-size: 100%;
+    text-align: center;
+    line-height: 200px;
+}
+
+.movies-heading-h2{
+    color: white;
+}
+.fan-wall-wb{
+    background-image: url("fan-wall-minnal-murali.jpg");
+    width: 300px;
+    height: 300px;
+    background-size: 100%;
+    text-align: center;
+    line-height: 200px;
+}
+.fan-wall-heading-h2{
+    color: white;
+}
+.merchandise{
+    text-align: center;
+}
+.tshirts{
+    display: flex;
+}
+.tshirt{
+    height: 200px;
+    width: 300px;
+}
+.newsletter{
+    height: 30%;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.primary-footer{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.secondary-footer{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-part-secondary-footer{
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.company-details-list,.help-list, .store-list{
+    line-height: 2em;
+}
