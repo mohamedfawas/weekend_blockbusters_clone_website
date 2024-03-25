@@ -7,17 +7,18 @@ body{
     display: flex;
     justify-content: space-around;
     background-color: #CECECE;
-
+    
 }
 .header-left-division{
     display: flex;
-    justify-content: flex-start;
-    column-gap: 10px;
+    padding-top: 40px;
+    column-gap: 20px;
+    
 }
 
 .header-centre-division{
-    display: flex;
-    justify-content: flex-start;
+    float:left;
+    padding-top: 10px;
 }
 
 .header-right-division{
@@ -31,22 +32,48 @@ body{
     background-color: #CECECE;
 }
 .movie-name-and-details{
-    text-align: center;
-    padding: 200px 0;
+    text-align: left;
+    padding: 100px 0;
+    font-size: 2em;
+}
+
+.movie-poster{
+    width: 525px;
+    height: 525px;
+    background-image: url("minnal-murali-vertical-poster.jpg");
+    border-radius: 50%;
+    background-size: cover;
+}
+
+#movie-name-additional-minnal-murali{
+    font-size: 0.5em;
+}
+
+#read-more-button-poster-div{
+    background-color: black;
+    font-size: 0.5em;
+    color: white;
+    border: 0;
+    padding: 20px 20px 20px 20px ;
 }
 
 .movies-and-fan-wall{
+    height: 70%;
+    width: 100%;
     display: flex;
     justify-content: center;
     gap: 50px;
+    padding-top: 50px;
 }
 .movies-wb{
     background-image: url("movies-bg.png");
     width: 300px;
     height: 300px;
     background-size: 100%;
-    text-align: center;
-    line-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .movies-heading-h2{
@@ -57,15 +84,30 @@ body{
     width: 300px;
     height: 300px;
     background-size: 100%;
-    text-align: center;
-    line-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .fan-wall-heading-h2{
     color: white;
 }
+
+.movies-fan-wall-buttons{
+    border: 0;
+    padding: 20px 25px 20px 25px;
+}
 .merchandise{
     text-align: center;
+    padding-top: 65px;
+    padding-bottom: 65px;
+    width: 100%;
+    height: 80%;
 }
+#merchandise-heading, #newsletter-heading{
+    font-size: 2em;
+}
+
 .tshirts{
     display: flex;
 }
@@ -73,26 +115,30 @@ body{
     height: 200px;
     width: 300px;
 }
+
 .newsletter{
-    height: 30%;
+    height: 20%;
     width: 100%;
-    margin: auto;
     text-align: center;
-    padding: 100px 0;
+    padding: 90px 0;
 }
+
 
 .primary-footer{
     height: 40%;
     width: 100%;
     display: flex;
     justify-content: space-around;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .secondary-footer{
-    height: 10%;
+    height: 5%;
     width: 100%;
     display: flex;
     justify-content: space-between;
+    padding: 20px 25px 10px 25px;
 }
 
 .right-part-secondary-footer{
