@@ -1,5 +1,3 @@
-Here I document the process of cloning the weekend blockbuster's homepage. I did this while learning HTML,CSS and Javascript. 
+Here I have created the clone website of the [Weekend Blockbusters](https://weekendblockbusters.com/) website using basic HTML and CSS knowledge.
 
-> Problem statement : 
-Create the clone of the homepage of Weekend Blockbusters. 
-
+The clone website I created is live at this [link](https://mohamedfawas.github.io/weekend_blockbusters_clone_website/).
