@@ -6,37 +6,32 @@
             Weekend Blockbusters - Movie Production
         </title>
         <link rel="stylesheet" href="final_style.css">
+        <link href='https://fonts.googleapis.com/css?family=Jost' rel='stylesheet'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     </head>
 
     <body>
         <header>
             <div class="header-main-division" >
                 <nav class="header-left-division">
-                    <a> Menu</a>
-                    <a> Home </a>
-                    <a> About Us</a>
-                    <a> Movies</a>
-                    <a> News</a>
-                    <a> Shop</a>
-                    <a> Fan Wall</a>
-                </nav>
-                <div class="header-centre-division">
+                    <i class="fa-solid fa-bars" id="menu-button-main-header"></i>
+                    <a class="nav-left-menu" href=""> Home </a>
+                    <a class="nav-left-menu" href=""> About Us</a>
+                    <a class="nav-left-menu" href=""> Movies</a>
+                    <a class="nav-left-menu" href=""> News</a>
+                    <a class="nav-left-menu" href=""> Shop</a>
+                    <a class="nav-left-menu" href=""> Fan Wall</a>
                     <img src="weekend_blockbusters_logo.png">
-                </div>
+                </nav>
+                <!-- <div class="header-centre-division">
+                    <img src="weekend_blockbusters_logo.png">
+                </div> -->
                 <div class="header-right-division">
-                    <a href="#" class="quick_search icon popup-1 search-header_icon"><span class="text">Search</span> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg></a>
-			<a href="https://weekendblockbusters.com/wishlist/" class="quick_wishlist icon">
-			<span class="text">Wishlist</span>
-			<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-heart"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>			<span class="item-counter et-wishlist-counter"></span>
-		</a>
-					<a data-target="open-cart" href="https://weekendblockbusters.com/cart/" title="Cart" class="quick_cart icon">
-					<span class="text">Cart</span>
-					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-bag"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path><line x1="3" y1="6" x2="21" y2="6"></line><path d="M16 10a4 4 0 0 1-8 0"></path></svg>					<span class="item-counter minicart-counter et-count-zero">0</span>
-				</a>
-                    <!-- <a> Login</a>
-                    <a> lens logo</a>
-                    <a> heart logo</a>
-                    <a> bag logo</a> -->
+                    <span>Login</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-heart"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-bag"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path><line x1="3" y1="6" x2="21" y2="6"></line><path d="M16 10a4 4 0 0 1-8 0"></path></svg>
+                    
                 </div>
             </div>
         </header>
@@ -64,7 +59,9 @@
             <h4 id="merchandise-heading">Best Selling</h4>
             <div class="tshirts">
                 <div >
+                    
                     <img class="tshirt" src="tshirts\tshirts_blue_1.jpg"><br>
+                    <!-- <i class="fa-regular fa-heart" id="heart1"></i> -->
                     TShirt Kids Minnal Blue<br>
                     ₹555.00
                 </div>
@@ -91,10 +88,12 @@
         <section class="newsletter">
             <h4 id="newsletter-heading">Blockbuster Updates </h4>
             <small>Subscribe to us for more updates</small><br>
-            <form>
-                <input type="text" placeholder="Your Email Address">
-                </form>
-            <button>Sign up</button>
+            <div class="form-and-button">
+                <form>
+                    <input type="text" placeholder="Your Email Address">
+                    </form>
+                <button id="sign-up-button">Sign up</button>
+            </div>
         </section>
         <hr>
         <footer>
@@ -119,10 +118,14 @@
                 <div class="follow-us-list">
                     FOLLOW US<br>
                     For Exciting Updates
+                    <div class="social-media-icons">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                    </div>
                 </div>
 
             </div>
-            <hr>
             <div class="secondary-footer">
                 <div class="left-part-secondary-footer">
                     Copyright © 2023. Weekend Blockbusters. All Rights Reserved.
